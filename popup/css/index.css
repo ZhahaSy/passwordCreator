@@ -1,0 +1,43 @@
+.wrap {
+    width: 400px;
+    padding: 10px;
+    min-height: 500px;
+}
+#creator , .passwordBook{
+    padding: 10px 6px;
+}
+#passwordView {
+    padding-left: 10px;
+    margin-bottom: 2px;
+    height: 32px;
+    line-height: 32px;
+}
+.hint {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.passwordListItem {
+    padding: 5px 10px;
+}
+.passwordListItem > .content {
+    font-size: 14px;
+}
+
+.passwordListItem > .content > .info {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    background: #eee;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.passwordListItem .content .copy {
+    cursor: pointer;
+}
+
+.passwordListItem .header {
+    display: flex;
+    justify-content: space-between;
+}
